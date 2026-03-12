@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Style/landingPage.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Dashboard | Mechanic Portal</title>
+</head>
+
+<body>
+    <div id = "NavBar">
+        <div id="forprofile">
+            <i class="fa-regular fa-circle-user"></i>
+        </div>
+        
+        <div id="mainnavbar">
+            <a href="mechanic.html"><button class="button">Dashboard</button></a>
+            <a href="workOrders.html"><button class="button">Work Orders</button></a>
+            <a href="appointments.html"><button class="button">Appointments</button></a>
+        </div>
+
+        <div id="formiscelanious">
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-comment-dots"></i>
+        </div>
+    </div>
+
+    <div id="sidebar">
+        <div id="listsSidebar">
+            <div id="SidebarProf">
+                <a href="mechanic.html"><i class="fa-regular fa-circle-user"></i></a>
+                <h2>Bungkanik's Name</h2>
+                <p>mechanic@carshop.com</p>
+            </div>
+            <a href="#"><button class="Tabs">
+                <i class="fa-solid fa-briefcase"></i>
+                <h1>My Jobs</h1>
+            </button></a>
+            <a href="#"><button class="Tabs">
+                <i class="fa-solid fa-message"></i>
+                <h1>Messages</h1>
+            </button></a>
+            <a href="#"><button class="Tabs">
+                <i class="fa-solid fa-sliders"></i>
+                <h1>Settings</h1>
+            </button></a>
+            <a href="login.html"><button class="Tabs" id="Sign-Out">Sign-out</button></a>
+        </div>
+    </div>
+
+    <div id = "Header">
+        <div id="Hinfo">
+        <h1>Mechanic Portal</h1>
+        <p>Welcome to your mechanic dashboard. Manage your work orders, appointments, and customer requests efficiently. 
+            Track your daily tasks, view upcoming appointments, and keep your schedule organized all in one place. 
+            Stay productive and deliver excellent service to your customers.</p>
+        </div>
+
+        <div id="socials">
+            <h1>Quick Stats</h1>
+            <div class="stat-box">
+                <p>Active Jobs: <strong>5</strong></p>
+            </div>
+            <div class="stat-box">
+                <p>Today's Appointments: <strong>3</strong></p>
+            </div>
+            <div class="stat-box">
+                <p>Completed This Week: <strong>12</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div id ="Recommendations">
+        <h1>Active Work Orders</h1>
+
+        <div class="shops" id="recom1">
+        <i class="fa-solid fa-toolbox"></i>
+        <div id="recinfo">
+            <h2>Work Order #001</h2>
+            <p>Vehicle: Toyota Camry | Service: Engine Repair
+                Priority: High | Customer: John Doe
+                Status: In Progress
+                Estimated Completion: Today 5:00 PM</p>
+            </div>
+        </div>
+
+        <div class="shops" id="recom2">
+        <i class="fa-solid fa-toolbox"></i>
+        <div id="recinfo">
+             <h2>Work Order #002</h2>
+            <p>Vehicle: Honda Civic | Service: Brake Inspection
+                Priority: Medium | Customer: Jane Smith
+                Status: Pending
+                Estimated Completion: Tomorrow 2:00 PM</p>
+            </div>
+        </div>
+
+        <div class="shops" id="recom3">
+        <i class="fa-solid fa-toolbox"></i>
+        <div id="recinfo">
+             <h2>Work Order #003</h2>
+            <p>Vehicle: Ford F-150 | Service: Oil Change & Filter Replacement
+                Priority: Low | Customer: Mike Johnson
+                Status: Scheduled
+                Estimated Completion: Next Week Monday</p>
+            </div>
+        </div>
+
+        <div class="shops" id="recom4">
+        <i class="fa-solid fa-toolbox"></i>
+            <div id="recinfo">
+             <h2>Work Order #004</h2>
+            <p>Vehicle: BMW 3 Series | Service: Transmission Fluid Flush
+                Priority: High | Customer: Sarah Williams
+                Status: In Progress
+                Estimated Completion: Today 6:30 PM</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="MechanicsRecommendation">
+        <h1>Upcoming Appointments</h1>
+        <div class="Profiles" id="Profile1">
+            <i class="fa-regular fa-circle-user"></i>
+            <div id="ProfileInfo">
+                <h1>Customer Name</h1>
+                <p>Time: 10:00 AM | Date: Today
+                    Vehicle: Honda Accord
+                    Service: Regular Maintenance
+                </p>
+            </div>
+        </div>
+        <div class="Profiles" id="Profile1">
+            <i class="fa-regular fa-circle-user"></i>
+            <div id="ProfileInfo">
+                <h1>Customer Name</h1>
+                <p>Time: 2:00 PM | Date: Today
+                    Vehicle: Mazda 3
+                    Service: Air Filter Replacement
+                </p>
+            </div>
+        </div>
+        <div class="Profiles" id="Profile1">
+            <i class="fa-regular fa-circle-user"></i>
+            <div id="ProfileInfo">
+                <h1>Customer Name</h1>
+                <p>Time: 11:30 AM | Date: Tomorrow
+                    Vehicle: Toyota Corolla
+                    Service: Battery Check
+                </p>
+            </div>
+        </div>
+        <div class="Profiles" id="Profile1">
+            <i class="fa-regular fa-circle-user"></i>
+            <div id="ProfileInfo">
+                <h1>Customer Name</h1>
+                <p>Time: 3:00 PM | Date: Tomorrow
+                    Vehicle: Nissan Altima
+                    Service: Tire Rotation
+                </p>
+            </div>
+        </div>
+
+        <div class="Profiles" id="Profile1">
+            <i class="fa-regular fa-circle-user"></i>
+            <div id="ProfileInfo">
+                <h1>Customer Name</h1>
+                <p>Time: 9:00 AM | Date: Next Week
+                    Vehicle: Subaru Outback
+                    Service: Engine Diagnostics
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../script.js"></script>
+</html>
