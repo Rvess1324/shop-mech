@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
 }
 
-
 #NavBar {
     background-color: rgb(17, 12, 48);
     height: 60px;
@@ -52,7 +51,6 @@ body {
     cursor: pointer; 
 }
 
-
 #sidebar {
     position: fixed;
     left: -250px; 
@@ -64,8 +62,7 @@ body {
     z-index: 99;
     padding-top: 80px;
 }
-#sidebar.active 
-{ 
+#sidebar.active { 
     left: 0; 
 }
 
@@ -73,6 +70,7 @@ body {
     text-align: center; 
     margin-bottom: 30px; 
 }
+
 #SidebarProf h2 { 
     font-size: 18px; 
     margin-top: 10px; 
@@ -84,6 +82,7 @@ body {
     display: flex; align-items: center;
     padding: 15px 20px; cursor: pointer;
 }
+
 .Tabs:hover { 
     background-color: #1c1840; 
 }
@@ -111,6 +110,7 @@ body {
     border-radius: 12px; 
     overflow: hidden; 
 }
+
 .OrderTable th, .OrderTable td { 
     padding: 20px; 
     text-align: left; 
@@ -137,3 +137,4 @@ body {
     cursor: pointer; 
     color: white; 
 }
+
